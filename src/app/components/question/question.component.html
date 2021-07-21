@@ -1,0 +1,15 @@
+<div class="question">
+    <div class="card">
+        <div class="card-header">
+            {{question.text}}
+            <a class="btn btn-link" (click)="question.hide = !question.hide">Show</a>
+            |<a class="btn btn-link" (click)="removeQuestion(question)">Remove</a>
+        </div>
+        <!-- <div class="card-block" *ngIf="question.hide"> -->
+        <div class="card-block" [hidden]="question.hide">
+            <p class="card-text p-2">{{question.answer}}</p>
+        </div>
+    </div>
+    <br>
+</div>
+
