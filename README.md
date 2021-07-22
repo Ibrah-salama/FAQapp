@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development on netlify server
 
-Navigate to [FAQapp](https://gracious-heisenberg-564a1c.netlify.app), the app will save data on local storgae.
+Navigate to [FAQapp](https://quizzical-haibt-5db589.netlify.app), the app will save data on local storgae.
 
 ## Development server
 
